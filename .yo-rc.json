@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "store",
+    "packageName": "io.github.jhipster.application",
+    "packageFolder": "io/github/jhipster/application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.5.0",
+    "jwtSecretKey": "MTA1ZTMxMzM3YTMwNDYwMWY2YjM2OGZmYmYyNGY0YjU3MGIwYzQyYmVjMjY1MTdjNGJiYTBhZWUyMzQ3MjJmNDEzODdhZmQ5OWJmNzI5Yzc4M2IzYmYwODliODQxYjBlMzRhZmViYTBiZTNhYjg3MTkwYjczNjNiNDFmOTk2NmE="
+  },
+  "git-provider": "GitHub",
+  "git-company": "taguan",
+  "repository-name": "store"
+}
