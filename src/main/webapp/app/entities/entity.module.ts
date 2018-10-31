@@ -4,6 +4,8 @@ import { StoreProductModule as CrmProductModule } from './crm/product/product.mo
 import { StoreCustomerModule as CrmCustomerModule } from './crm/customer/customer.module';
 import { StoreProductOrderModule as CrmProductOrderModule } from './crm/product-order/product-order.module';
 import { StoreOrderItemModule as CrmOrderItemModule } from './crm/order-item/order-item.module';
+import { StoreInvoiceModule as AccountancyInvoiceModule } from './accountancy/invoice/invoice.module';
+import { StoreShipmentModule as AccountancyShipmentModule } from './accountancy/shipment/shipment.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -13,6 +15,8 @@ import { StoreOrderItemModule as CrmOrderItemModule } from './crm/order-item/ord
         CrmCustomerModule,
         CrmProductOrderModule,
         CrmOrderItemModule,
+        AccountancyInvoiceModule,
+        AccountancyShipmentModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],
